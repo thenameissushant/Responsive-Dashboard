@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Skill Page</title>
+</head>
+<!-- The Boiler Plate is taken from  Code Pen -->
+    <body>
+        <main>
+          <nav class="main-menu">
+            <h1>Fitness App</h1>
+            <img class="logo" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/4cfdcb5a-0137-4457-8be1-6e7bd1f29ebb" alt="" />
+            <ul>
+              <li class="nav-item active">
+                <b></b>
+                <b></b>
+                <a href="#">
+                  <i class="fa fa-house nav-icon"></i>
+                  <span class="nav-text">Home</span>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <b></b>
+                <b></b>
+                <a href="#">
+                  <i class="fa fa-user nav-icon"></i>
+                  <span class="nav-text">Profile</span>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <b></b>
+                <b></b>
+                <a href="#">
+                  <i class="fa fa-calendar-check nav-icon"></i>
+                  <span class="nav-text">Schedule</span>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <b></b>
+                <b></b>
+                <a href="#">
+                  <i class="fa fa-person-running nav-icon"></i>
+                  <span class="nav-text">Activities</span>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <b></b>
+                <b></b>
+                <a href="#">
+                  <i class="fa fa-sliders nav-icon"></i>
+                  <span class="nav-text">Settings</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+    
+          <section class="content">
+            <div class="left-content">
+              <div class="activities">
+                <h1>My-Skills</h1>
+                <div class="activity-container">
+                  <div class="image-container img-one">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/936/786/386/video-game-outdrive-car-chillwave-wallpaper-thumb.jpg" alt="game" />
+                    <div class="overlay">
+                      <h3>Car Game</h3>
+                    </div>
+                  </div>
+    
+                  <div class="image-container img-two">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyMMP-3GpxIYmrDzBmSPWb5MjRenf9rIr45w&usqp=CAU" alt="snake-game" />
+                    <div class="overlay">
+                      <h3>Snake Game</h3>
+                    </div>
+                  </div>
+    
+                  <div class="image-container img-three">
+                    <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.webp" alt="portfolio" />
+                    <div class="overlay">
+                      <h3>Portfolio</h3>
+                    </div>
+                  </div>
+    
+                  <div class="image-container img-four">
+                    <img src="https://s.cafebazaar.ir/images/upload/screenshot/com.ham.wallpaper.weather-5ed562a3-be60-46f5-a99f-7e7b4b283363.png?x-img=v1/resize,h_600,lossless_false/optimize" alt="weather-app" />
+                    <div class="overlay">
+                      <h3>Weather App</h3>
+                    </div>
+                  </div>
+    
+                  <div class="image-container img-five">
+                    <img src="data:image/png;base64,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" alt="to-do-list" />
+                    <div class="overlay">
+                      <h3>To-Do List</h3>
+                    </div>
+                  </div>
+    
+                  <div class="image-container img-six">
+                    <img src="https://imgv3.fotor.com/images/blog-richtext-image/Best-Text-to-Speech-Software.jpg" alt="tex-to-speech" />
+                    <div class="overlay">
+                      <h3>Text-to Speech</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="left-bottom">
+                <div class="weekly-schedule">
+                  <h1>Profiles</h1>
+                  <div class="calendar">
+                    <div class="day-and-activity activity-one">
+                      <div class="day">
+                        <h1>1</h1>
+                      </div>
+                      <div class="activity">
+                        <h2>Portfolio Website</h2>
+                      </div>
+                      <button onclick="port()" class="btn">Visit</button>
+                    </div>
+    
+                    <div class="day-and-activity activity-two">
+                      <div class="day">
+                        <h1>2</h1>
+                      </div>
+                      <div class="activity">
+                        <h2>Projects</h2>
+                      </div>
+                      <button onclick="pro()" class="btn">Visit</button>
+                    </div>
+    
+                    <div class="day-and-activity activity-three">
+                      <div class="day">
+                        <h1>3</h1>
+                      </div>
+                      <div class="activity">
+                        <h2>Leetcode Profile</h2>
+                      </div>
+                      <button onclick="leet()" class="btn">Visit</button>
+                    </div>
+    
+                    <div class="day-and-activity activity-four">
+                      <div class="day">
+                        <h1>4</h1>
+                      </div>
+                      <div class="activity">
+                        <h2>Services</h2>
+                      </div>
+                      <button onclick="service()" class="btn">Visit</button>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="personal-bests">
+                  <h1>Social Media</h1>
+                  <div class="personal-bests-container">
+                    <div onclick = "redirect()" class="best-item box-one">
+                      <p>Linkedin</p>
+                      <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/242bbd8c-aaf8-4aee-a3e4-e0df62d1ab27" alt="" />
+                    </div>
+                    <div onclick = "redirect2()" class="best-item box-two">
+                      <p>Twitter</p>
+                      <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/a3b3cb3a-5127-498b-91cc-a1d39499164a" alt="" />
+                    </div>
+                    <div onclick = "redirect3()" class="best-item box-three">
+                      <p>GitHub</p>
+                      <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/e0ee8ffb-faa8-462a-b44d-0a18c1d9604c" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="right-content">
+              <div class="user-info">
+                <div class="icon-container">
+                  <i class="fa fa-bell nav-icon"></i>
+                  <i class="fa fa-message nav-icon"></i>
+                </div>
+                <h4> Sushant Jha</h4>
+                <img src="https://avatarfiles.alphacoders.com/364/thumb-350-364538.webp" alt="user" />
+              </div>
+    
+              <div class="active-calories">
+                <h1 style="align-self: flex-start">Programming Language</h1>
+                <div class="active-calories-container">
+                  <div class="box" style="--i: 85%">
+                    <div class="circle">
+                      <h2>85<small>%</small></h2>
+                    </div>
+                  </div>
+                  <div class="calories-content">
+                    <p><span>Python : </span> 55%</p>
+                    <p><span>JAVA : </span> 70%</p>
+                    <p><span>JavaScript : </span> 75%</p>
+                  </div>
+                </div>
+              </div>
+          <div class="mobile-personal-bests">
+                <h1>Personal Bests</h1>
+                <div class="personal-bests-container">
+                  <div class="best-item box-one">
+                    <p>Fastest 5K Run: 22min</p>
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/05dfc444-9ed3-44cc-96af-a9cf195f5820" alt="" />
+                  </div>
+                  <div class="best-item box-two">
+                    <p>Longest Distance Cycling: 4 miles</p>
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/9ca170e9-1252-4fa6-8677-36493540c1f2" alt="" />
+                  </div>
+                  <div class="best-item box-three">
+                    <p>Longest Roller-Skating: 2 hours</p>
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/262d1611-ed4c-4297-981c-480cf7f95714" alt="" />
+                  </div>
+                </div>
+              </div>
+    
+              <div class="friends-activity">
+                <h1>Recent Activity</h1>
+                <div class="card-container">
+                  <div class="card">
+                    <div class="card-user-info">
+                      <h2>MERN-STACK</h2>
+                    </div>
+                    <img class="card-img" src="https://img.freepik.com/free-vector/vector-banner-website-development_107791-3339.jpg" alt="" />
+                    <p>Learning MERN stack Development</p>
+                  </div>
+    
+                  <div class="card card-two">
+                    <div class="card-user-info">
+                      <h2>DSA in JAVA</h2>
+                    </div>
+                    <img class="card-img" src="https://e1.pxfuel.com/desktop-wallpaper/209/1020/desktop-wallpaper-data-analyst-data-structure.jpg" alt="" />
+                    <p>DSA with JAVA is in Progress</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+        <script src="app.js"></script>
+      </body>
+</html>
